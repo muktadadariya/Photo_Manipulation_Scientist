@@ -1,0 +1,49 @@
+!SESSION 2016-05-06 13:51:16.578 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Mukta/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Mukta/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-06 13:52:15.838
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.epp.internal.logging.aeri.ui.log.CheckServerAvailabilityJob
+!SESSION 2016-05-07 14:01:52.986 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Mukta/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Mukta/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.e4.ui.importer 4 0 2016-05-07 14:03:05.393
+!MESSAGE Could not import project located at /Users/Mukta/Desktop/Java_Project_Mukta/CS501Final_ImageEditor
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /Users/Mukta/Desktop/Java_Project_Mukta/CS501Final_ImageEditor
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:369)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.run(EasymportJob.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:168)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:268)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.createOrImportProject(EasymportJob.java:405)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:357)
+	... 2 more
+
+!ENTRY org.eclipse.e4.ui.importer 4 0 2016-05-07 14:03:27.896
+!MESSAGE Could not import project located at /Users/Mukta/Desktop/Java_Project_Mukta/CS501Final_ImageEditor
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /Users/Mukta/Desktop/Java_Project_Mukta/CS501Final_ImageEditor
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:369)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.run(EasymportJob.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:168)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:268)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.createOrImportProject(EasymportJob.java:405)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:357)
+	... 2 more
